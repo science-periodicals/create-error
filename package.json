@@ -1,0 +1,42 @@
+{
+  "name": "@scipe/create-error",
+  "version": "0.0.0",
+  "description": "Create an instance of Error with a code property mostly from various CouchDB responses",
+  "main": "index.js",
+  "browser": {
+    "http": "./lib/http.js"
+  },
+  "prettier": {
+    "singleQuote": true
+  },
+  "eslintConfig": {
+    "extends": "@scipe"
+  },
+  "scripts": {
+    "format": "prettier --single-quote --write \"{lib,test}/**/*.js\"",
+    "test": "mocha",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scienceai/create-error.git"
+  },
+  "keywords": [
+    "CouchDB",
+    "error"
+  ],
+  "author": "Sebastien Ballesteros",
+  "license": "See README.md",
+  "bugs": {
+    "url": "https://github.com/scienceai/create-error/issues"
+  },
+  "homepage": "https://github.com/scienceai/create-error#readme",
+  "devDependencies": {
+    "@scipe/eslint-config": "^1.0.0",
+    "mocha": "^6.1.4",
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "http-status": "^1.3.2"
+  }
+}
