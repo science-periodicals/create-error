@@ -2,6 +2,8 @@
 
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
+[![CircleCI](https://circleci.com/gh/science-periodicals/create-error.svg?style=svg&circle-token=2f17bcdffa287be1bb85138596042f0e5f1a3235)](https://circleci.com/gh/science-periodicals/create-error)
+
 Note: this module is auto published to npm on CircleCI. Only run `npm version
 patch|minor|major` and let CI do the rest.
 
